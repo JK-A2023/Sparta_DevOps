@@ -21,6 +21,18 @@ url = 'https://pokeapi.co/api/v2/pokemon/1'
 response = requests.get(url)
 bulbasuar = json.loads(response.content)
 
-pprint(bulbasuar['stats'])
+# for key in bulbasuar:
+#     print(key)
+
+
+poke_stats = bulbasuar['stats']
+pprint(poke_stats)
+
+stat_names = [stat["stat"] for stat in poke_stats]
+pprint(stat_names)
+
+stat_name_final = [name["name"] for name in stat_names]
+print(stat_name_final)
+
 
 
