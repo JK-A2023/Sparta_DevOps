@@ -46,6 +46,8 @@ Here is a simplified overview of how SSH works:
 - When you receive data that has been encrypted with your public key, you use your private key to decrypt it. This ensures only you can access the original content.
 - If someone gains access to your private key, they can decrypt your messages and impersonate you in digital signatures.
 
+![](C:\Users\Andre\Pictures\encryption.png)
+
 ## How can you create an SSH key pair?
 
 o create an SSH key pair, you can use the ssh-keygen utility, which is commonly available on Unix-based systems like Linux and macOS. Here are the steps to generate an SSH key pair:
@@ -54,12 +56,22 @@ Open a Terminal or Command Prompt:
 
 To generate an SSH key pair, run the following command:
 
+```git config --global url."git@github.com:".insteadOf "https://github.com/"```
+
 ```ssh-keygen -t rsa -b 2048 -C "your_email@example.com"```
+
+`eval `ssh-agent``
+
+`ssh-add ~/.ssh/<file-name>`
+
+`ssh -T git@github.com`
 
 
 The -t option specifies the type of key to create, which is RSA in this case.
 
 The -b option specifies the key's length, which is 2048 bits (a common choice for security).
+
+The -C comment, so can put what you want there, but mostly for email address.
 
 You can accept the default location for storing the key pair, which is typically ~/.ssh/id_rsa for the private key and ~/.ssh/id_rsa.pub for the public key.
 
