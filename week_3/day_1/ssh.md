@@ -56,15 +56,20 @@ Open a Terminal or Command Prompt:
 
 To generate an SSH key pair, run the following command:
 
-```git config --global url."git@github.com:".insteadOf "https://github.com/"```
+[//]: # (```git config --global url."git@github.com:".insteadOf "https://github.com/"```)
 
-```ssh-keygen -t rsa -b 2048 -C "your_email@example.com"```
+1. `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+2. `eval `ssh-agent``
+3. `ssh-add ~/.ssh/<file-name>`
+4. `ssh -T git@github.com`
+5. `git remote set-url origin git@github.com:<your-git/here>.git`
 
-`eval `ssh-agent``
+Then just the regular
 
-`ssh-add ~/.ssh/<file-name>`
+`git add .`
+`git commit -m "<message>`
+`git push -u origin main`
 
-`ssh -T git@github.com`
 
 
 The -t option specifies the type of key to create, which is RSA in this case.
