@@ -63,7 +63,7 @@ print(hw[0:5]) # prints everything from the 0th index up to the 5th (excluding 5
     len() - length
     count() - counts the set of arguments in a string
     lower() - Turns characters into lowercase
-    capitalize() - capitalise the first letter
+    capitalize() - capitalize the first letter
     replace() - replaces specified argument with new argument.
 """
 

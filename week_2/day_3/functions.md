@@ -64,4 +64,4 @@ Give your IDE an idea of what data types to expect.
 
 ## Good Practices in Functions
 Add useful doc strings.
-Clear function names and argument names.
+Clear function names and argument names. 

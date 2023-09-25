@@ -1,15 +1,12 @@
-"""
-    Libraries and modules
+# Libraries and modules
 
-    Python has very extensive libraries and modules, this is great for DevOps engineers.
+Python has very extensive libraries and modules, this is great for DevOps engineers.
 
-    Module is a single file of functions, classes, variables, etc.
-    A library is a collection of modules.
-"""
+1. Module is a single file of functions, classes, variables, etc.
+2. A library is a collection of modules.
 
-import math
-import random
-import requests
+```python
+import math, random, requests
 from pprint import pprint
 
 num_float = 23.66
@@ -24,11 +21,12 @@ print(random.choice(rand_list))
 rand_num = random.randint(1, 10)
 print(rand_num)
 #
-# request_bbc = requests.get("https://www.bbc.co.uk")
-#
-# print(request_bbc.status_code)
-# pprint(request_bbc.content)
+request_bbc = requests.get("https://www.bbc.co.uk")
+
+print(request_bbc.status_code)
+pprint(request_bbc.content)
 
 pikachu_request = requests.get("https://pokeapi.co/api/v2/pokemon/pikachu")
 pprint(pikachu_request.status_code)
 pprint(pikachu_request.content)
+```

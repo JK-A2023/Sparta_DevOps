@@ -10,17 +10,6 @@
 
 API's are used in every industry, across every sector of collaborative / online programming. Here are some common uses:
 
-1. Web Dev:
-   1. API's facilitate communication between web applications and services frequently.
-2. Data Pipelines:
-   1. 
-3. Search Engines:
-   1. Enables developers to put search engine functionality into their websites / applications.
-4. Weather Data:
-   1. Real-time and forecasted weather data is often integrated into applications, mobile apps, websites, or even search engine searches.
-5. Social Media:
-   1. 
-
 # Rest API
 
 ### What is REST API?
@@ -59,20 +48,87 @@ Here are the design elements that makes an API RESTful:
 
 ### What is HTTP used for?
 
-### Diagrams:
+- Retrieving Web Pages
+  - Primary used to request and retrieve web pages from web servers.
+- Transfer of Resources
+- Stateless Communication
+  - each request from a client to server is independent and does not retain information about previous requests.
+- Uniform Resource Identification.
+  - defines uniform way to identify resources.
+- Request methods:
+  - GET
+    - Requests data from a server.
+  - POST
+    - Submits data to be processed to a specific resource.
+  - PUT
+    - Updates a resource or creates a new resources if it does not exist.
+  - DELETE
+    - Removes a specified resource.
+  - PATCH
+    - Applies partial modifications to a resource.
+- Status Codes
+- Headers
+  - Used to convey additional information about a request or response. Can be content type, length, caching instructions, and more, etc.
+- Security
+- API's
+- Web Services
 
 ### HTTP Request Structure
 
-
-
 ### The Five HTTP Verbs:
 
-1. GET
-2. POST
-3. PUT
-4. PATCH
-5. DELETE
+  - GET
+    - Requests data from a server.
+  - POST
+    - Submits data to be processed to a specific resource.
+  - PUT
+    - Updates a resource or creates a new resources if it does not exist.
+  - DELETE
+    - Removes a specified resource.
+  - PATCH
+    - Applies partial modifications to a resource.
 
-### Statelessness
+## VERB URL VERSIONs
+
+This could be GET, POST, PUT, DELETE, etc.
+
+After this is the target URL, and finally the HTTP version.
+
+## Request Headers
+
+HTTP provide additional information about the request or the client making the request.
+- Host.
+- User-Agent
+- Accept
+- Content-Type
+- Authorization
+- Cookie
+- Referer
+
+## Request Body
+
+This component is option and only included in requests that require sending data to the server.
+
+
+
+![](C:\Users\Andre\Pictures\HTTP_request.png)
+
+## Response Structure
+
+- Status Line
+  - HTTP Version
+  - Status Code
+- Response Headers
+  - Content-Type
+  - Server
+  - Content-Length
+  - Cache-Control
+  - Location
+- Empty Line
+- Response Body
+
+![](C:\Users\Andre\Pictures\HTTP_response.png)
+
+
 
 ### Caching
