@@ -62,3 +62,13 @@
     1. Can change number of instances to launch. Leave as 1.
 
 ![img_2.png](aws_images/summary.png)
+
+
+![img.png](aws_images/vm_instances.png)
+
+
+![img_1.png](aws_images/instances_select.png)
+
+![img_2.png](aws_images/instance_state.png)
+
+![img_3.png](aws_images/termination.png)
