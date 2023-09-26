@@ -1,3 +1,4 @@
+
 # What is Cloud?
 
 - What is Cloud Computing? 
@@ -61,16 +62,39 @@
 - What are the 4 TYPES of Cloud?
   - 
 
+1. Public Clouds
+    1. Cloud environment created from IT infrastructure not owned by the end user.
+2. Private Clouds
+    1. Solely dedicated to a single end user group, where the environment runs behind that user or group's firewall.
+3. Hybrid Clouds
+    1. A seemingly single IT environment created from multiple environments connected through local area networks (LAN's).
+4. Multi-clouds
+    1. More than one cloud service, from more than one cloud vendor - public or private.
 
 
 - What are the different types of cloud SERVICE?
   - 
 
 1. Infrastructure as a Service (IaaS)
+   1. This means that the infrastructure is managed by the cloud provider.
+   2. Virtualization, servers, storage, networking are all provided and manager by the server provider.
+
+![img.png](cloud_md_images/iaas.png)
+(Source - Red Hat)
 2. Platform as a Service (PaaS)
+   1. This means that the hardware and application-software are provided by a service provider.
+   2. The user handles the applications that run on top of this platform.
+
+![img.png](cloud_md_images/paas.png)
+(Source - Red Hat)
 3. Software as a Service (SaaS)
+    1. Everything down to the current software being ran by the user is provided by the cloud service provider.
+![img.png](cloud_md_images/saas.png)
+(Source - Red Hat)
 
 ![img.png](cloud_md_images/cloud_service_models.png)
+
+(Source - Uniprint)
 
 - Advantages/Disadvantages of the Cloud?
   - 
@@ -95,17 +119,33 @@
   - 
 
 1. Operating Expenses
-    1.
+    1. Day-to-Day, ongoing expenses required to keep a business operational.
 2. Capital Expenditures
-    1.
+    1. Long-term investments in long-term assets and projects that are expected to generate value over extended period of time.
 
 - Market share - What is the breakdown?
   - 
 
+![img.png](cloud_md_images/cloud_provider_market_share.png)
+
+(Source - Statista)
+
 - What are the 3 largest Cloud providers know for (What makes them popular?)
   - 
 
-- What are the 4 pillars of DevOps? How do they link into the Cloud do you think?
-  - 
+1. Amazon AWS:
+   1. S3
+   2. EC2
+   3. CloudWatch
+2. Microsoft Azure:
+   1. Azure DevOps
+   2. VM's
+   3. Blob Storage
+3. Google Cloud Platform (GCP):
+   1. Cloud Computing
+   2. Cloud Storage
+   3. Kubernetes
 
-Bonus: Can you find up to 3 case studies showing how businesses have migrated to the cloud or used the cloud to improve in some way?
+
+- Pillars of DevOps:
+  - 
