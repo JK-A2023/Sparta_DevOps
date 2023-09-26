@@ -1,6 +1,6 @@
-# AWS
+# AWS EC2
 
-## VM
+## VM Set Up
 
 1. Click into EC2
 
@@ -56,16 +56,12 @@
 11. Advanced Details:
     1. For now, leave as blank.
 
-
-
 12. Summary:
     1. Can change number of instances to launch. Leave as 1.
 
 ![img_2.png](aws_images/summary.png)
 
-
 ![img.png](aws_images/vm_instances.png)
-
 
 ![img_1.png](aws_images/instances_select.png)
 
