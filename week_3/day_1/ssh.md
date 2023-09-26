@@ -70,6 +70,9 @@ Then just the regular
 `git commit -m "<message>`
 `git push -u origin main`
 
+Finally:
+
+`git remote -v`
 
 
 The -t option specifies the type of key to create, which is RSA in this case.
