@@ -10,7 +10,7 @@
 
 ![img.png](img.png)
 
-If you can find a diagram to explain it would be good.
+(Source - Atlassian)
 
 - Quick history/timeline of Cloud Computing.
   - 
