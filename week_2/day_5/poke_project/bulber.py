@@ -22,7 +22,8 @@ def all_poke_names(all_pokemon_data):
 
 """
     Input from the user for a Pokemon name. If the input is found within the list of names, the use can confirm or reset
-    the choosing process.
+    the choosing process. If the user enters a name that is not within the list, they are told to select from available
+    names, and resets to the start.
 """
 def user_poke_init(all_poke_names_from_list):
     character_input = input("Choose your Pokemon!").lower()
