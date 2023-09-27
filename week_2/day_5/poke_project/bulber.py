@@ -74,12 +74,41 @@ def user_poke_stats(poke_setup, poke_name):
     print(pokemon_data_stats)
 
 
+def cpu_name(all_poke_names_from_list):
+    cpu_name_from_list = str(random.choice(all_poke_names_from_list))
+    return cpu_name_from_list
+
+
+def cpu_poke_setup(poke_data, cpu_name_choice):
+    print(f"The CPU has chosen {cpu_name_choice.capitalize()}")
+    for result in poke_data["results"]:
+        if result['name'] == cpu_name_choice:
+            pokemon_url = result['url']
+            user_poke_response = requests.get(pokemon_url)
+            pokemon_data = user_poke_response.json()
+            return pokemon_data
+
+
+def cpu_poke_stats(poke_setup, poke_name):
+    print(f"The CPU's {poke_name.capitalize()} is being set up!")
+    cpu_pokemon_data_stats = []
+    for key in poke_setup.keys():
+        cpu_pokemon_data_stats.append(key)
+    # print(cpu_pokemon_data_stats)
+
+
 def game():
 
     pokemon_data = poke_response_init()
     poke_names = all_poke_names(pokemon_data)
+
     poke_name = user_poke_init(poke_names)
     poke_setup = user_poke_setup(poke_response_init(), poke_names, poke_name)
     user_poke_stats(poke_setup, poke_name)
+
+    cpu_poke_name = cpu_name(poke_names)
+    cpu_setup = cpu_poke_setup(pokemon_data, cpu_poke_name)
+    cpu_poke_stats(cpu_setup, cpu_poke_name)
+
 
 game()
