@@ -39,22 +39,22 @@ Ensure you are connected to the correct region. In this instance, we will be usi
 5. Select Instance type.
    1. For our purposes, we do not need much computational power, and so we will use the `t2.micro`
 
-![Alt text](image-4.png)
+![img.png](linux_images/ec2_instance_type_selected.png)
 
 6. Enter your given key pair.
    1. Later, you will need access to a .pem file that acts as the private side of this key.
    2. In this instance, we are using the rsa key tech254.
 
-![Alt text](image-5.png)
+![img.png](linux_images/key_pair_location.png)
 
 7. Network settings:
    1. Leave all settings as default until you reach Security group name.
    2. Choose a unique and descriptive name here.
    3. Security group lets us assign rules to a group we will make.
 
-![Alt text](image-6.png)
+![img.png](linux_images/network_settings_edit_button.png)
 
-![Alt text](image-7.png)
+![img.png](linux_images/security_group_name_location.png)
 
 ### Ports
 
@@ -72,16 +72,16 @@ Some standard ports:
    1. `HTTP` - Leave everything as default with the exception of the source, changing it to 0.0.0.0/0 for global reach.
    2. `HTTPS` - Leave everything as default with the exception of the source, changing it to 0.0.0.0/0 for global reach.
 
-![Alt text](image-9.png)
+![img.png](linux_images/security_group_rule_button.png)
 
-![Alt text](image-10.png)
+![img.png](linux_images/security_group_http_type.png)
 
-![Alt text](image-11.png)
+![img.png](linux_images/security_group_https_name.png)
 
 9. Storage Configuration:
    1.  Leave as default.
 
-![Alt text](image-12.png)
+![img.png](linux_images/configure_storage_section.png)
 
 10. Summary:
     1.  Check over summary to ensure all options selected match with requirements.
