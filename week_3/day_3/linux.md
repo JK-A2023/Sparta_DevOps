@@ -2,8 +2,10 @@
 
 1. Type of operating system kernel.
 2. Open Source
-3. Unix-like
+3. UNIX-like
+   1. Developed on UNIX.
 4. Uses Linux Kernal.
+5. Many "Flavours".
 
 - Why is it popular?
   -
@@ -27,8 +29,15 @@
    1. Large developer community that thrives, continuing support and help with Linux.
    2. If you have an issue with Linux, someone else will have had it, chances are there will be an answer to your issue.
 6. Development still continues.
+7. Scalable.
 
+- Why is it used for Production Servers?
+  - 
 
+1. Full control
+2. Fewer licenses
+3. Customizable
+4. 
 
 - History
   - 
