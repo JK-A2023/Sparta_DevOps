@@ -87,28 +87,29 @@ Some standard ports:
     1.  Check over summary to ensure all options selected match with requirements.
     2.  Press the marked Launch Instance button.
 
-![Alt text](image-13.png)
+![img.png](linux_images/summary_section.png)
 
 ## Connecting to EC2
 
 1. Use the newly generated link to go to your EC2 page:
 
-![Alt text](image.png)
+![img.png](linux_images/successful_ec2_init.png)
 
 2. Click on the Connect button:
 
-![Alt text](image-15.png)
+![img.png](linux_images/ec2_connect_button.png)
 
 3. Navigate to the SSH client tab:
 
-![Alt text](image-16.png)
+![img.png](linux_images/ssh_client_tab.png)
 
 4. Locate your previously hidden .pem private key, possibly located within your hidden .ssh folder.
-   1. See terminal input:+
+   1. See terminal input:
+   2. Make sure the key is readable:
 
-![Alt text](image-17.png)
+![img.png](linux_images/chmod_command.png)
 
-![Alt text](image-18.png)
+![img.png](linux_images/chmod_terminal.png)
 
 5. Use the provided command to connect to your ubuntu user profile on the EC2.
    1. For our use, the command is:
@@ -118,18 +119,18 @@ Some standard ports:
    5. `ubunutu` this is the user we are logging in as on the server.
    6. `@ec2-54-155-164-225.eu-west-1.compute.amazonaws.com` is where we want to go.
 
-![Alt text](image-19.png)
+![img.png](linux_images/ssh_connect_command_1.png)
 
-![Alt text](image-20.png)
+![img.png](linux_images/ssh_terminal_input.png)
 
 6. In the terminal, say `yes` to approve the authenticity.
 
-![Alt text](image-21.png)
+![img.png](linux_images/say_yes_to_ssh.png)
 
 7. Note the change in the terminal output and name.
    1. You are now logged in to your EC2.
 
-![Alt text](image-22.png)
+![img.png](linux_images/ec2_instance_first_log_in.png)
 
 8. Make sure your machine is up to date.
    1. `sudo apt update`
@@ -139,23 +140,24 @@ Some standard ports:
    5. The `-y` flag agrees to all changes automatically.
    6. Do this step before launching important applications, as later updates and upgrades may cause issues.
 
-![Alt text](image-23.png)
+![img.png](linux_images/sudo_apt_update.png)
 
-![Alt text](image-24.png)
+![img.png](linux_images/sudo_apt_upgrade.png)
 
 ## Setting Up NGINX
 
 1. Install NGINX on your EC2 using the following:
    1. `sudo apt install nginx -y`
 
-![Alt text](image-25.png)
+![img.png](linux_images/install_nginx.png)
 
 2.  To verify the application has installed, start it, and then check its status:
     1.  `sudo systemctl start nginx`
     2.  `sudo systemctl status nginx`
     3.  press `q` to leave the status.
 
-![Alt text](image-1.png)
+![img.png](linux_images/start_nginx.png)
+![img.png](linux_images/status_nginx.png)
 
 3. NGINX is now running.
 4. Navigate back to your EC2 instance page.
@@ -163,6 +165,6 @@ Some standard ports:
    2. Copy the address.
    3. Paste this into your browser URL bar.
 
-![Alt text](image-28.png)
+![img.png](linux_images/ipv4_ip.png)
 
-![Alt text](image-29.png)
+![img.png](linux_images/you_did_it.png)
