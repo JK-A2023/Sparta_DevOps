@@ -39,6 +39,3 @@
 3. Customizable
 4. 
 
-- History
-  - 
-
