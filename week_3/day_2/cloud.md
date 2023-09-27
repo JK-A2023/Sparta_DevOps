@@ -149,3 +149,22 @@
 
 - Pillars of DevOps:
   - 
+
+1. Communication
+2. Collaboration
+3. Automation
+4. Monitoring
+
+## Sparta Pillars
+
+1. Ease of use:
+   1. Is it easy to use?
+   2. If not, it won't be used.
+   3. Make systems others can use to provide value.
+2. Flexibility:
+   1. Industry changes quickly. Don't create systems that rely too heavily on one particular app / service, etc.
+3. Robustness:
+   1. Uptime. Can this be kept up towards 99 .9% uptime?
+   2. Will users be able to break the software?
+4. Cost:
+   1. How can we be as cost-effective as possible.
