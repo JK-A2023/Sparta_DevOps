@@ -13,3 +13,12 @@ What does our instance require in order to run the app?
 - In the app folder, we need to run 2 commands:
   - npm install
   - node app.js
+
+
+![img.png](images/curl_node_12.png)
+
+![img.png](images/pm2.png)
+
+npm install
+
+node app.js
