@@ -23,6 +23,9 @@
    1. Transfers data.
    2. e.g.: `curl https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg --output cat.jpg`
    3. `--output <filename.type>`
+      1. does what??
+   4. `-sL` 
+      1. does what??
 8. `file <filename>`
    1. gives information about a file.
    2. e.g.: `file cat.jpg`
