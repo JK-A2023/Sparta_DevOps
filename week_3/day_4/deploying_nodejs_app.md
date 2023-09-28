@@ -240,3 +240,6 @@ The first five steps are optional, and are in place for those who have not yet s
    1. Make sure to `cd` into the necessary app folder for this command:
    2. `npm install`
    3. This command installs all libraries located within the environment required to run the file. 
+
+5. While in this file, run the final command:
+   1. `node app.js`
