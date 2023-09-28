@@ -74,6 +74,31 @@
     1.  breaks connection to EC2 instance.
 25. `systemctl`
     1.  system processes
+26. `ps`
+    1.  PID = process ID
+    2.  TTY = terminal session running with it
+    3.  CMD = command that was used to start that process
+    4.  `--help`, `--help simple` shows you what flags to use
+    5.  `-A` shows all processes.
+    6.  `-aux` verbose
+27. `top`
+    1.  Shows live feed of current processes.
+    2.  `M` shows what processes are using most memory
+    3.  `N` shows what processes are newest
+    4.  `P` CPU usage
+28. `sleep`
+    1.  runs in foreground, takes command line away from you.
+    2.  `sleep 5` runs for 5 seconds
+    3.  `&` runs in background
+        1.  `sleep 5000 &` runs in background for 5000 seconds
+        2.  provides you with a PID number
+29. `kill`
+    1.  Kills the specified program.
+    2.  `kill -1 <PID>` hangup - gentle termination
+    3.  `kill -15` more forceful.
+    4.  `kill -9` kills the program
+    5.  `kill - KILL` same as above
+30. 
 
 
 # Bash
