@@ -100,7 +100,13 @@
     3.  `kill -15` more forceful.
     4.  `kill -9` kills the program
     5.  `kill -KILL` same as above
-30. 
+30. `printenv`
+    1.  prints the environment variables.
+    2.  `printenv USER` prints the user variable.
+31. `export`
+    1.  sets up an environment variable:
+    2.  `export MYNAME=Andrew`
+    3.  Creates an env var named MYNAME, with value of Andrew
 
 
 # Bash
