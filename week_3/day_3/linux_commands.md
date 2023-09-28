@@ -59,7 +59,7 @@
     1.  `cat chicken_joke.txt | grep chicken`
         1. prints "why did the chicken cross the road?" with the word chicken  highlighted, and only the line that contains it.
  19. `grep`
-     1.  
+     1.  order is `grep <word looking for> <file>`
  20. `apt`
      1.  internal linux process to go and get a particular package, and manipulate those packages.
  21. `sudo`
