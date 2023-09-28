@@ -239,4 +239,4 @@ The first five steps are optional, and are in place for those who have not yet s
 4. Final installation command:
    1. Make sure to `cd` into the necessary app folder for this command:
    2. `npm install`
-   3. This command installs all libraries located within the environment required to run the file.
+   3. This command installs all libraries located within the environment required to run the file. 
