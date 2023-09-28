@@ -58,20 +58,22 @@
 18. `|` "pipe" allows to add additional commands:
     1.  `cat chicken_joke.txt | grep chicken`
         1. prints "why did the chicken cross the road?" with the word chicken  highlighted, and only the line that contains it.
- 19. `grep`
-     1.  order is `grep <word looking for> <file>`
- 20. `apt`
-     1.  internal linux process to go and get a particular package, and manipulate those packages.
- 21. `sudo`
-     1.  super user permissions for a particular command
- 22. `tree`
-     1.  shows all directories
-     2.  `-a ` for all
- 23. `sudo su`
-     1.  switch user / substitute user: changes user into super user, typically root user.
-     2.  enter `exit` to go back to regular user
- 24. `exit`
-     1.  breaks connection to EC2 instance.
+19. `grep`
+    1.  order is `grep <word looking for> <file>`
+20. `apt`
+    1.  internal linux process to go and get a particular package, and manipulate those packages.
+21. `sudo`
+    1.  super user permissions for a particular command
+22. `tree`
+    1.  shows all directories
+    2.  `-a ` for all
+23. `sudo su`
+    1.  switch user / substitute user: changes user into super user, typically root user.
+    2.  enter `exit` to go back to regular user
+24. `exit`
+    1.  breaks connection to EC2 instance.
+25. `systemctl`
+    1.  system processes
 
 
 # Bash
