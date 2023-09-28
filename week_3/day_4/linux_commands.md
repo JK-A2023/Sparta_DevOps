@@ -107,6 +107,10 @@
     1.  sets up an environment variable:
     2.  `export MYNAME=Andrew`
     3.  Creates an env var named MYNAME, with value of Andrew
+32. `scp -i "<your_file_here"`
+    1.  secure copy.
+    2.  clones a file over from native computer onto the instance.
+    3.  `scp -i "~/.ssh/tech254.pem"`
 
 
 # Bash

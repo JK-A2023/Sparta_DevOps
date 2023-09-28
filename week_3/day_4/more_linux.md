@@ -10,3 +10,6 @@ Can use scripts to provision servers.
 
 to give execute permission:
 `sudo chmod +x <filename>`
+
+Nodejs operates on port 3000 (usually)
+
