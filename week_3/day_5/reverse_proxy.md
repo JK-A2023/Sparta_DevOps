@@ -1,4 +1,9 @@
-# Nginx Reverse Proxy
+# Reverse Proxy
+
+A reverse proxy is a server that sits in front of webservers and forwards client requests to those web servers. Helps to increase security, performance, and reliability.
+
+### What is regular Proxy server?
+
 
 Nginx inspects each HTTP request and identifies which backend system, be it an Apache, Tomcat, Express or NodeJS server, should handle the request
 
