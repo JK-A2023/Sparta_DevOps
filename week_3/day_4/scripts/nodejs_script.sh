@@ -15,6 +15,12 @@ sudo sysemctl restart nginx
 #enable
 sudo systemctl enable nginx
 
+#install tree
+sudo apt install tree
+
+#install git
+sudo apt install git-all
+
 #install correct Nodejs version
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
@@ -34,13 +40,10 @@ cd nodejs_app
 git clone https://github.com/JK-A2023/Sparta_app.git
 
 #Move into correct folder
-cd Sparta_app
-
-#Move into correct folder
-cd app
+cd Sparta_app/app
 
 #Install dependencies
 npm install
 
 #Run file
-node app.js
+pm2 start app.js
