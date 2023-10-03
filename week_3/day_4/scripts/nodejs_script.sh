@@ -43,7 +43,7 @@ git clone https://github.com/JK-A2023/Sparta_app.git
 cd Sparta_app/app
 
 #Install dependencies
-npm install
+npm install -y
 
 #Run file
 pm2 start app.js
