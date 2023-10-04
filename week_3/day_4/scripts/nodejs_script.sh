@@ -17,7 +17,7 @@ sudo systemctl enable nginx
 
 #install tree
 sudo apt install tree
-
++
 #install git
 sudo apt install git-all
 
