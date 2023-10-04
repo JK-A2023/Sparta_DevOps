@@ -1,16 +1,3 @@
-![Alt text](image.png)
-
-
-
-
-
-
-
-
-Why is environment variable useful for this task?
--   Global and can be accessed from anywhere.
-
-
 # Setting up a MongoDB server using AMI
 
 1. Set up your instance.
