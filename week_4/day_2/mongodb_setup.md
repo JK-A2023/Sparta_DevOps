@@ -46,16 +46,25 @@
 
 ![img.png](images/other_task_images/database_instance_running.png)
 
-9. Add the database instances public as an environment variable:
+9. `sudo nano /etc/nginx/sites-available/default`
+   1.  change all code inside location:
+       1.  `proxy_pass http://localhost:3000;`
+       2.  `proxy_set_header Host $host;`
+       3.  `proxy_set_header X-Real-IP $remote_addr;`
+
+10. Restart nginx:
+    1.  `sudo systemctl restart nginx`
+
+11. Add the database instances public as an environment variable:
    1.  `export DB_HOST=mongodb://<your_id_here>:27017/posts`
 
-10. Navigate to the app directory in your pre-set AMI where the application is.
+12. Navigate to the app directory in your pre-set AMI where the application is.
     1.  `npm install`
     2.  `pm2 start app.js` 
     3.  OR
     4.  `node app.js`
 
-11. This should run your program. You can now check the following pages:
+13. This should run your program. You can now check the following pages:
 
 ![img.png](images/other_task_images/nginx_running.png)
 
