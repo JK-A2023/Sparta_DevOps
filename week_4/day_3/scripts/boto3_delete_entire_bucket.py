@@ -7,7 +7,9 @@ if len(sys.argv) != 2:
 
 bucket_name = sys.argv[1]
 
-s3_client = boto3.client('s3', region_name='eu-west-1')
+region="eu-west-1"
+
+s3_client = boto3.client('s3', region_name=region)
 
 objects = s3_client.list_objects_v2(Bucket=bucket_name)
 
