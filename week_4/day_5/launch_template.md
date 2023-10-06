@@ -1,4 +1,4 @@
-# Launch Template
+# Create Launch Template
 
 1. a
 2. sd
@@ -20,4 +20,10 @@
 
 ![img.png](image-3.png)
 
-7. 
+7. Create.
+
+# Begin Launch Template
+
+1. 
+
+![img.png](image-4.png)
