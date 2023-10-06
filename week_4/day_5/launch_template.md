@@ -39,3 +39,4 @@
 ![img.png](images/launch-template/image-5.png)
 
 4. Launch instance.
+
