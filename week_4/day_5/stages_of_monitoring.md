@@ -36,4 +36,4 @@ This implementation of monitoring and alerting is better, as is lowers the chanc
 
 This implementation is much greater than the previous versions. Here, the chance of human error is lowered considerably (unless there is error in the set up of AMI, launch templace, or Auto Scaling Group) as there is no intervention or required reaction time.
 
-![img.png](images/others/image.png)
+![img.png](images/others/image-1.png)
