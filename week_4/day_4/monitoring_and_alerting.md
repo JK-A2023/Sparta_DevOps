@@ -40,7 +40,7 @@
 
 10. Press Select Metric.
 11. Specific the conditions:
-    1.  Give it an appropriate, specific name.
+    1.  Do not change the name.
     2.  Give it an appropriate Period (i.e., 1 minute)
     3.  Choose your % in the `than` box in the conditions section.
 
