@@ -18,3 +18,5 @@
    5. Private Subnet
       1. Database VM
       2. Security Group
+
+![img.png](images/vpc/image.png)
