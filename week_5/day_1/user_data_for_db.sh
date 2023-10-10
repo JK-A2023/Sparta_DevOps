@@ -8,6 +8,9 @@ cd home/ubuntu/Sparta_app/app
 #install npm dependencies
 npm install
 
+# seed db
+node seeds/seed.js
+
 # kill any previous background processes
 pm2 kill
 
