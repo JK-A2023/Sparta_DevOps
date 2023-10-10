@@ -62,11 +62,5 @@ This means:
 - The highest usable Host address = `192.168.2.254`
   - cannot be the same as the broadcast address (255).
 - All numbers in between these fixed numbers are usable IPs, and can be hosts.
-- 
+
 CIDR is simply the combination of an IP address with the subnet mask length. However, CIDR is more flexible, as the prefix length indicates exactly how many bits are used for the network portion. This allows for more precise control over subnetting.
-
-1. Street Name: In CIDR, the street name is like the base IP address (e.g., 192.168.2.64).
-2. House Number Range: The house number range is represented by a number after a slash (e.g., /26). It tells you how many houses are included.
-
-
-So, "192.168.2.64/26" means all the addresses from 192.168.2.65 to 192.168.1.254.
