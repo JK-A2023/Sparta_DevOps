@@ -18,13 +18,11 @@ Each octet is made up of 8 binary bits. This means these binary bits are either 
 
 `10000000.11000000.01000000.00000000`
 
-
+The combinations inside each octets covers every number from 0 to 255.
 
 Here is the format of the bits, in order:
 
 `128` - `64` - `32` - `16` - `8` - `4` - `2` - `1`
-
-The combinations inside each octets covers every number from 0 to 255 (255 being the sum of all combined numbers).
 
 Using this format:
 
