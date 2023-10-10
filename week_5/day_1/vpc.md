@@ -4,6 +4,8 @@
 
 A VPC is a virtual network environment that allows you to customize network infrastructure and security. They use an Internet Gateway, acting as a doorway, subnets, as well as routers, to direct traffic to and from the specified VM's to keep the network secure.
 
+![img.png](images/vpc_image.png)
+
 
 - AWS is like a building that is shared between everyone that uses the public cloud.
 - Everyone uses a default public, shared VPC.
