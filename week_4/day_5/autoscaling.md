@@ -1,5 +1,14 @@
 # Auto Scaling Guide
 
+## What is it?
+
+Autoscaling is the automated monitoring of applications to automatically elastically adjust capicity to maintain steady, predictable performance, while keep costs as low as possible by only using the resources required.
+
+As an autoscalling group notices traffic / demand of a resource increases, the number of resources increase to cope with demand.
+As traffic / demand decreases, the number of resources will decrease with it.
+
+## Guide:
+
 1. Navigate to the Auto Scaling page.
 2. Select the Create Auto Scaling group button.
 

@@ -1,5 +1,9 @@
 # NGINX Setup Through EC2
 
+## What is it?
+
+Nginx is an open source software for web serving, reverse proxying, and more!
+
 ### Prerequisites
 
 Ensure you are connected to the correct region. In this instance, we will be using `eu-west-2`, "Ireland", marked in red:

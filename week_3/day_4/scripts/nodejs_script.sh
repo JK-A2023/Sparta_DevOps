@@ -10,14 +10,13 @@ sudo apt upgrade -y
 sudo apt install nginx -y
 
 #restart
-sudo sysemctl restart nginx
+sudo systemctl restart nginx
 
 #enable
 sudo systemctl enable nginx
 
 #install tree
-sudo apt install tree
-+
+sudo apt install tree -y
 #install git
 sudo apt install git-all
 

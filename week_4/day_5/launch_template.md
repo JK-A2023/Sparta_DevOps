@@ -1,9 +1,7 @@
 # Create Launch Template
 
-1. a
-2. sd
-3. Name
-   1. Give it appropriate, descriptive name.
+
+1. Give it appropriate, descriptive name.
 
 ![img.png](images/launch-template/image.png)
 
