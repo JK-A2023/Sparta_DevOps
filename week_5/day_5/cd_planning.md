@@ -40,7 +40,7 @@
    2. 22 - ssh
    3. 80 - HTTP
 
-## Jenkins
+## Jenkins-CD
 
 Set up third job:
 
@@ -100,3 +100,53 @@ EOF
 
 Before using sequence, always build independently first, to see if it works.
 
+## Jenkins-App
+
+Set up fourth job:
+
+### General:
+
+1. Add (and change in all oder jobs) 4 builds to keep:
+
+![img.png](images/cd_guide/image-5.png)
+
+### Office 365 Connector:
+
+![img.png](images/cd_guide/image-6.png)
+
+### Source Code Management & Build Triggers:
+
+![img.png](images/cd_guide/image-7.png)
+
+### Build Environment:
+
+1. Provide Node
+2. SSH Agent
+
+![img.png](images/cd_guide/image-8.png)
+
+### Build:
+
+1. Execute Shell:
+
+```
+
+ssh -A -o "StrictHostKeyChecking=no" ubuntu@34.249.110.64 <<EOF
+
+    #install correct Nodejs version
+    curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+    
+    #install NodeJs, pm2
+    sudo apt install nodejs -y
+    sudo npm install pm2 -g
+    
+    cd app
+    
+    #Install dependencies
+    npm install -y
+    
+    pm2 kill
+    
+    #Run file
+    pm2 start app.js
+```
