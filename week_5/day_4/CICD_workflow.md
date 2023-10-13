@@ -11,4 +11,5 @@
    2. Code is pulled onto EC2 machine and restarted.
 
 
-![img.png](images/cicd/image.png)
+
+![img.png](images/cicd/image-1.png)
