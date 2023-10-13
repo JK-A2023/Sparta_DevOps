@@ -34,7 +34,7 @@
 
 ## Stage 3
 
-![img.png](image.png)
+![img.png](images/ci_cd_stages/image.png)
 
 1. User sets up Jenkins app job:
    1. Allows Node.
