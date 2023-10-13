@@ -8,6 +8,20 @@ Secure Shell is a network communication protocol for operating network services 
 
 Its most notable applications are remote login and command-line execution.
 
+## What are Private and Public keys?
+
+### Public Key
+
+- Cryptographic key that is intended to be shared openly with anyone, hence the name "public".
+- When someone wants to send you an encrypted message or datas, they use your public key to encrypt it. Once encrypted with your public key, only your corresponding private key can decrypt it.
+- It is computationally infeasible to derive the private key from the public key.
+
+### Private Key
+
+- Closely guarded secret key that must never be shared with anyone. It is used for decryption and digital signatures.
+- When you receive data that has been encrypted with your public key, you use your private key to decrypt it. This ensures only you can access the original content.
+- If someone gains access to your private key, they can decrypt your messages and impersonate you in digital signatures.
+
 ## How does SSH work?
 
 Operates as a layered protocol suite comprising three principal hierarchical components:
@@ -32,25 +46,13 @@ Here is a simplified overview of how SSH works:
 8. Data Exchange:
 9. Session Termination.
 
-## What are Private and Public keys?
 
-### Public Key
-
-- Cryptographic key that is intended to be shared openly with anyone, hence the name "public".
-- When someone wants to send you an encrypted message or datas, they use your public key to encrypt it. Once encrypted with your public key, only your corresponding private key can decrypt it.
-- It is computationally infeasible to derive the private key from the public key.
-
-### Private Key
-
-- Closely guarded secret key that must never be shared with anyone. It is used for decryption and digital signatures.
-- When you receive data that has been encrypted with your public key, you use your private key to decrypt it. This ensures only you can access the original content.
-- If someone gains access to your private key, they can decrypt your messages and impersonate you in digital signatures.
 
 ![](C:\Users\Andre\Pictures\encryption.png)
 
 ## How can you create an SSH key pair?
 
-o create an SSH key pair, you can use the ssh-keygen utility, which is commonly available on Unix-based systems like Linux and macOS. Here are the steps to generate an SSH key pair:
+To create an SSH key pair, you can use the ssh-keygen utility, which is commonly available on Unix-based systems like Linux and macOS. Here are the steps to generate an SSH key pair:
 
 Open a Terminal or Command Prompt:
 
