@@ -35,3 +35,11 @@
    9. cd into Sparta_app / app
    10. install npm dependencies
    11. start app with pm2
+
+## Jenkins Job3:
+
+This can deploy on AWS.
+
+1. Create a third job
+2. Uses SSH agent, using .pem file added.
+3. Create Security Group that allows port 8080.
