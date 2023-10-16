@@ -1,8 +1,8 @@
 
 # What is Cloud?
 
-- What is Cloud Computing? 
-  -
+## What is Cloud Computing? 
+
 
 1. On-demand delivery of IT resources over the internet.
 2. Variable, elastic, traffic-oriented pricing.
@@ -13,8 +13,8 @@
 
 (Source - Atlassian)
 
-- Quick history/timeline of Cloud Computing.
-  - 
+## Quick history/timeline of Cloud Computing.
+ 
 
 ### 1960s - 70s
 1. Time-sharing began, allowing computing resources to be used among many tasks or users.
@@ -41,16 +41,16 @@
 2. Security, flexibility, on-demand means users can get what they want, when they want, on an elastic scale.
 
 
-- What can you do with Cloud Computing?
-  - 
+## What can you do with Cloud Computing?
+
 
 1. Scalable Computing Resources
 2. Web Hosting and Developing
 3. Data Storage
 4. Serverless Computing
 
-- What is “On-Prem”?
-  - 
+## What is “On-Prem”?
+
 
 1. On-Premises (On-Prem) is a method of deploying software,
 2. Opposite form of software delivery to Cloud.
@@ -59,8 +59,7 @@
 5. Allows for physical control over software.
 6. No paying third-party fees / monthly / on-demand subscription.
 
-- What are the 4 TYPES of Cloud?
-  - 
+## What are the 4 TYPES of Cloud?
 
 1. Public Clouds
     1. Cloud environment created from IT infrastructure not owned by the end user.
@@ -72,8 +71,8 @@
     1. More than one cloud service, from more than one cloud vendor - public or private.
 
 
-- What are the different types of cloud SERVICE?
-  - 
+## What are the different types of cloud SERVICE?
+
 
 1. Infrastructure as a Service (IaaS)
    1. This means that the infrastructure is managed by the cloud provider.
@@ -96,8 +95,7 @@
 
 (Source - Uniprint)
 
-- Advantages/Disadvantages of the Cloud?
-  - 
+## Advantages/Disadvantages of the Cloud?
 
 1. Agility:
    1. Easy to move between technologies.
@@ -115,16 +113,15 @@
    1. Move servers anywhere regionally to allow for closer proximity to clients.
    2. Move / set up at any time, anywhere.
 
-- What is OpEx vs CapEx?
-  - 
+## What is OpEx vs CapEx?
 
 1. Operating Expenses
     1. Day-to-Day, ongoing expenses required to keep a business operational.
 2. Capital Expenditures
     1. Long-term investments in long-term assets and projects that are expected to generate value over extended period of time.
 
-- Market share - What is the breakdown?
-  - 
+## Market share - What is the breakdown?
+
 
 ![img.png](cloud_md_images/cloud_provider_market_share.png)
 

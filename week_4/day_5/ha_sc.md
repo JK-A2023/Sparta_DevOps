@@ -12,5 +12,5 @@
 2. HA:
    1. An environment that is able to continue to provide resources over a period of time.
       1. Load Balancing: Spreading requests among two or more resources to average out demand, as opposed to over stressing one resource.
-      2. Multiple availability zones: If one availability zone is to fail, having your resources spread over mdifferent zones reduces the likelihood of all of your resources failing at the same time, meaning you can continue providing value.
+      2. Multiple availability zones: If one availability zone is to fail, having your resources spread over different zones reduces the likelihood of all of your resources failing at the same time, meaning you can continue providing value.
  
